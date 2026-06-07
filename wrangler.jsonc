@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "sink",
+  "name": "otf",
   "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
@@ -28,7 +28,7 @@
   "analytics_engine_datasets": [
     {
       "binding": "ANALYTICS",
-      "dataset": "sink"
+      "dataset": "otf"
     }
   ],
   "kv_namespaces": [
